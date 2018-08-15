@@ -1,6 +1,6 @@
 {
   "name": "vue-laravel-zero",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue plugin loader for laravel-zero blueprint",
   "main": "src/index.js",
   "repository": "https://github.com/kirejko/vue-laravel-zero.git",
