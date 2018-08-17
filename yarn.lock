@@ -2,6 +2,28 @@
 # yarn lockfile v1
 
 
+"@types/jquery@*":
+  version "3.3.6"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.6.tgz#5932ead926307ca21e5b36808257f7c926b06565"
+
+"@types/lodash@^4.14.116":
+  version "4.14.116"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.116.tgz#5ccf215653e3e8c786a58390751033a9adca0eb9"
+
+"@types/node@^10.7.1":
+  version "10.7.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.7.1.tgz#b704d7c259aa40ee052eec678758a68d07132a2e"
+
+"@types/pusher-js@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@types/pusher-js/-/pusher-js-4.2.0.tgz#88a06cc695a4cd5656738db9f66c9c9cc5057806"
+
+"@types/toastr@^2.1.35":
+  version "2.1.35"
+  resolved "https://registry.yarnpkg.com/@types/toastr/-/toastr-2.1.35.tgz#9b29ee786744994c4f7eafee415b125f835dd854"
+  dependencies:
+    "@types/jquery" "*"
+
 es6-object-assign@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/es6-object-assign/-/es6-object-assign-1.1.0.tgz#c2c3582656247c39ea107cb1e6652b6f9f24523c"
@@ -23,6 +45,10 @@ jquery@>=1.12.0:
 laravel-echo@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/laravel-echo/-/laravel-echo-1.4.0.tgz#19520b142871f6c641bbdc1ece0b7b12a3a8381b"
+
+lodash@^4.17.10:
+  version "4.17.10"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
 promise-polyfill@^6.0.2:
   version "6.1.0"
@@ -57,6 +83,10 @@ tweetnacl-util@^0.15.0:
 tweetnacl@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-1.0.0.tgz#713d8b818da42068740bf68386d0479e66fc8a7b"
+
+typescript@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.0.1.tgz#43738f29585d3a87575520a4b93ab6026ef11fdb"
 
 vue@^2.5.17:
   version "2.5.17"
