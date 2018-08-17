@@ -1,4 +1,4 @@
-import _Vue from 'vue';
+import _Vue, {PluginFunction} from 'vue';
 import _Echo from 'laravel-echo';
 import {SweetAlert} from 'sweetalert/typings/core';
 import {Laroute} from './laroute';
@@ -20,3 +20,5 @@ export {
 
 export {SweetAlert};
 export {Laroute} from './laroute';
+
+export default PluginFunction;
