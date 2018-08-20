@@ -2,6 +2,7 @@ import _Vue, {PluginFunction} from 'vue';
 import _Echo from 'laravel-echo';
 import {SweetAlert} from 'sweetalert/typings/core';
 import {Laroute} from './laroute';
+import {AxiosInstance} from "axios";
 
 declare module "vue/types/vue" {
   export interface Vue {
@@ -35,6 +36,13 @@ declare module "vue/types/vue" {
      * @url https://github.com/aaronlord/laroute
      */
     $laroute: Laroute;
+
+    /**
+     * Axios http client.
+     *
+     * @url https://github.com/axios/axios
+     */
+    $axios: AxiosInstance;
   }
 }
 

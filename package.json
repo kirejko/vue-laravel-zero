@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@types/toastr": "^2.1.35",
+    "axios": "^0.18.0",
     "laravel-echo": "^1.4.0",
     "lodash": "^4.17.10",
     "pusher-js": "^4.3.0",
@@ -21,6 +22,7 @@
     "vue": "^2.5.17"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/lodash": "^4.14.116",
     "@types/node": "^10.7.1",
     "@types/pusher-js": "^4.2.0",
