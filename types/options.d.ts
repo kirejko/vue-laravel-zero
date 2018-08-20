@@ -8,6 +8,7 @@ export interface SelfInitOptions {
 export interface LaravelZeroOptions {
   echo?: EchoOptions;
   toastr?: ToastrOptions;
+  axios?: AxiosOptions;
   laroute?: string;
   busName?: string;
 }
